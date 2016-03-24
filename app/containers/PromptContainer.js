@@ -34,7 +34,6 @@ var PromptContainer = React.createClass({
       this.context.router.push('/playerTwo/' + this.state.username)
     }
   },
-
   render: function() {
     return (
       <Prompt

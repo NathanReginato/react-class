@@ -1,11 +1,9 @@
 var React = require('react');
 var transparentBg = require('../styles').transparentBg;
 
-
 var Prompt = React.createClass({
   render: function () {
     return (
-
       <div className="jumbotron col-sm-6 col-sm-offset-3 text-center" style={transparentBg}>
         <h1> {this.props.header} </h1>
         <div className="col-sm-12">
@@ -31,3 +29,5 @@ var Prompt = React.createClass({
     )
   }
 })
+
+module.exports = Prompt
